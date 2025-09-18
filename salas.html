@@ -3,69 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Salas</title>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #0d0d0f;
-      font-family: Arial, sans-serif;
-      color: #fff;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: auto;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    h1 {
-      margin-bottom: 40px;
-      font-size: 2em;
-    }
-
-    .salas {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .sala {
-      background: #1c1c1e;
-      border-radius: 10px;
-      width: 220px;
-      height: 120px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 1.5em;
-      font-weight: bold;
-      transition: transform 0.3s, background 0.3s;
-      cursor: pointer;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    }
-
-    .sala:hover {
-      transform: scale(1.15);
-      background: #2a2a2d;
-    }
-
-    /* Colores las salas */
-    .series { color: #ff6f61; }
-    .deportes { color: #4caf50; }
-    .videojuegos { color: #42a5f5; }
+  
   </style>
 </head>
 <body>
-  <div class="container">
+    <div class = "barra-navegacion">
+        <img class="img-barra" src="logo.png" alt="">
+        <ul class="contenedor-texto">
+         <a href="index.html"><li class="texto-nav">Inicio</li></a>
+         <a href="#"><li class="texto-nav">Info APP</li></a>
+         </ul>
+         <a href="#"><img src="usuario.png" alt="" class="img-usuario"></a>
+    </div>
+    <div class="container">
     <h1>Elige tu Sala</h1>
     <div class="salas">
       <div class="sala series">🎬 series</div>
       <div class="sala deportes">⚽ Deportes</div>
       <div class="sala videojuegos">🎮 Videojuegos</div>
     </div>
-  </div>
+    </div>
 </body>
 </html>
