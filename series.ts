@@ -12,10 +12,8 @@ interface Serie {
     { id: 4, nombre: "The Office", imagen: "img/TheOffice.jpeg" }
   ];
   
-  
 
   let verMasTarde: Serie[] = JSON.parse(localStorage.getItem("verMasTarde") || "[]");
-  
   
   const listaSeries = document.getElementById("lista-series") as HTMLDivElement;
   const listaVerMasTarde = document.getElementById("lista-ver-mas-tarde") as HTMLUListElement;
