@@ -89,6 +89,7 @@ a {
     .deportes { color: #4caf50; }
     .videojuegos { color: #42a5f5; }
 
+
 /* ESTILO DEPORTES*/
 
 .contenedor-titulo-deporte {
@@ -217,3 +218,83 @@ button:hover {
   color: #0d0d0f;
   
 }
+=======
+/* Card de serie con imagen */
+.serie-card {
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    transition: transform 0.3s;
+  }
+  
+  .serie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Capa oscura sobre la imagen */
+  .serie-card .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .serie-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Botón dentro de las cards */
+  .serie-card button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #ffcc00;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .serie-card button:hover {
+    background: #ffaa00;
+  }
+  
+  /* Lista de "ver más tarde" */
+  #lista-ver-mas-tarde {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #lista-ver-mas-tarde li {
+    margin: 8px 0;
+    background: #1c1c1e;
+    padding: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Botón eliminar ❌ */
+  #lista-ver-mas-tarde .eliminar {
+    border: none;
+    background: red;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #lista-ver-mas-tarde .eliminar:hover {
+    background: darkred;
+  }
+  
+
