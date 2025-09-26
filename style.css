@@ -89,7 +89,6 @@ a {
     .deportes { color: #4caf50; }
     .videojuegos { color: #42a5f5; }
 
-
 /* ESTILO DEPORTES*/
 
 .contenedor-titulo-deporte {
@@ -296,5 +295,4 @@ button:hover {
   #lista-ver-mas-tarde .eliminar:hover {
     background: darkred;
   }
-  
 
