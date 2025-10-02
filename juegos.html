@@ -1,59 +1,62 @@
-<html lang="en">
+<<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="juegos.js"></script>
-    <title>Juegos en vivo</title>
+    <script src="deporte.js"></script>
+    <title>Videojuegos en vivo</title>
 </head>
 <body>
-    <div class="contenedor-titulo-juegos">
-        <h3>JUEGOS</h3>
+    <div class="barra-navegacion">
+    <img class="img-barra" src="img-barra/logo.png" alt="">
+    <ul class="contenedor-texto">
+      <a href="salas.html"><li class="texto-nav">Salas</li></a>
+
+    </ul>
+    <a href="#"><img src="img-barra/usuario.png" alt="" class="img-usuario"></a>
+  </div>
+
+    <div class="contenedor-titulo-deporte">
+        <h3>VIDEOJUEGOS</h3>
     </div>
 
-</div>
-
-    <div class="contenedor-juegos">
-        <div class="opcion-juegos">
-            <img src="https://infosaladillo.com.ar/wp-content/uploads/2024/04/futbol-1.jpg" alt="" class="img-deporte">
-            <h5 class="titulo-opcion">JUEGO 1</h5>
-        <div class="container-link-ahora">
-            <a href="link-deporte" class="link-juegos">Ver ahora</a>
+    <div class="contenedor-deportes">
+  <div class="opcion-deporte">
+    <img src="https://fotos.perfil.com/2022/03/15/trim/1140/641/que-es-csgo-y-como-aprender-a-jugar-1326553.jpg" alt="" class="img-deporte">
+    <h5 class="titulo-opcion">CS GO</h5>
+    <div class="container-link-ahora">
+      <a href="link-deporte" class="link-deportes">Ver ahora</a>
     </div>
     <div class="container-link-despues">
-      <p class="link-deportes"><button onclick="verMasTarde('Partido 1')">Ver más tarde</button></p>
+      <p class="link-deportes"><button onclick="verMasTarde('Counter Strike Global Offenvise')">Ver más tarde</button></p>
     </div>
   </div>
 
-          <div class="opcion-juegos">
-            <img src="https://infosaladillo.com.ar/wp-content/uploads/2024/04/futbol-1.jpg" alt="" class="img-deporte">
-            <h5 class="titulo-opcion">JUEGO 1</h5>
-        <div class="container-link-ahora">
-            <a href="link-deporte" class="link-juegos">Ver ahora</a>
+   <div class="opcion-deporte">
+    <img src="https://www.clarin.com/2024/07/17/ORRRfEnDj_2000x1500__1.jpg" alt="" class="img-deporte">
+    <h5 class="titulo-opcion">FIFA</h5>
+    <div class="container-link-ahora">
+      <a href="link-deporte" class="link-deportes">Ver ahora</a>
     </div>
     <div class="container-link-despues">
-      <p class="link-deportes"><button onclick="verMasTarde('Partido 1')">Ver más tarde</button></p>
+      <p class="link-deportes"><button onclick="verMasTarde('FIFA')">Ver más tarde</button></p>
     </div>
   </div>
 
-          <div class="opcion-juegos">
-            <img src="https://infosaladillo.com.ar/wp-content/uploads/2024/04/futbol-1.jpg" alt="" class="img-deporte">
-            <h5 class="titulo-opcion">JUEGO 1</h5>
-        <div class="container-link-ahora">
-            <a href="link-deporte" class="link-juegos">Ver ahora</a>
+   <div class="opcion-deporte">
+    <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages02/2016/08/30/F1311F3B-298C-42B7-9D70-DD40576FAFC1/98.jpg?crop=624,351,x10,y0&width=1900&height=1069&optimize=high&format=webply" alt="" class="img-deporte">
+    <h5 class="titulo-opcion">GTA</h5>
+    <div class="container-link-ahora">
+      <a href="link-deporte" class="link-deportes">Ver ahora</a>
     </div>
     <div class="container-link-despues">
-      <p class="link-deportes"><button onclick="verMasTarde('Partido 1')">Ver más tarde</button></p>
+      <p class="link-deportes"><button onclick="verMasTarde('GTA')">Ver más tarde</button></p>
     </div>
   </div>
 
-  
-</div>
-
-<div class="container-verMasTarde">
+  <div class="container-verMasTarde">
       <h4>Lista de ver mas tarde</h4>
       <ul id="lista"></ul>
 </div>
-    
-</body>
-</html>
+
+  </div>

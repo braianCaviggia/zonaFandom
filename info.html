@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Info APP</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #F1F1F1;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #3F3DFF;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: white;
+    }
+    header a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    header a:hover {
+      text-decoration: underline;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    .card {
+      background: #1E1E1E;
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 700px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+      animation: fadeIn 1s ease-in-out;
+    }
+    .card h2 {
+      color: #3F8CFF;
+      margin-bottom: 1rem;
+    }
+    .card p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    .highlight {
+      color: #3F8CFF;
+      font-weight: bold;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+ 
+  <main>
+    <div class="card">
+      <h2>Acerca del Proyecto</h2>
+      <p>
+        Esta aplicación web fue desarrollada como un <span class="highlight">proyecto de práctica</span>
+        con el objetivo de gestionar salas temáticas de forma interactiva.
+      </p>
+      <p>
+        El usuario puede elegir entre distintas salas (<span class="highlight">Series</span>,
+        <span class="highlight">Deportes</span> y <span class="highlight">Videojuegos</span>) y
+        acceder a contenido relacionado en cada una.
+      </p>
+      <p>
+        La aplicación está construida con <span class="highlight">HTML</span>,
+        <span class="highlight">CSS</span> y <span class="highlight">TypeScript</span>,
+        ofreciendo una experiencia visual simple, clara y dinámica.
+      </p>
+    </div>
+  </main>
+  <footer>
+    © 2025 Proyecto Salas Interactivas - Augusto Amado - Braian Caviggia
+  </footer>
+</body>
+</html>
